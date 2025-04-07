@@ -32,7 +32,7 @@ Gotator is a tool to generate DNS wordlists through permutations.
 If you want to make modifications locally and compile it, follow the instructions below:
 
 ```
-> git clone https://github.com/Josue87/gotator.git
+> git clone https://github.com/Elsfa7-110/gotator-solved.git
 > cd gotator
 > go build
 ```
@@ -40,13 +40,13 @@ If you want to make modifications locally and compile it, follow the instruction
 If you are only interested in using the program:
 
 ```
-> go install github.com/Josue87/gotator@latest
+> go install github.com/Elsfa7-110/gotator-solved@latest
 ```
 
 🐳 **Docker** option:
 
 ```
-> git clone https://github.com/Josue87/gotator.git
+> git clone https://github.com/Elsfa7-110/gotator-solved.git
 > cd gotator
 > docker build -t gotator . 
 # Usage 
