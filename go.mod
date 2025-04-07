@@ -1,3 +1,3 @@
 module Elsfa7-110/gotator-solved
 
-go 1.17
+go 1.18
