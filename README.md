@@ -24,6 +24,7 @@
 
 <p align="center">
 Gotator is a tool to generate DNS wordlists through permutations.
+The false positive issue has been resolved. Now you will not receive domains/subdomains out of scope. (ELSFA7-110)
 </p>
 <br/>
 
