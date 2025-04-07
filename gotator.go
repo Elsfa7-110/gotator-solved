@@ -52,6 +52,7 @@ func isCCSLDDomain(domain string) bool {
 	splitDomain := strings.Split(domain, ".")
 	domainLen := len(splitDomain)
 	if (domainLen == 3 || domainLen == 4) && containsElement(ccsld, strings.Join(splitDomain[1:], ".")) {
+	if (domainLen > 2 && containsElement(ccsld, strings.Join(splitDomain[domainLen-2:], "."))) {
 		return true
 	}
 	return false
